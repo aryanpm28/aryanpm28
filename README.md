@@ -40,5 +40,5 @@ Backend system to manage expenses and transactions.
 
 ## Connect With Me
 - GitHub: https://github.com/aryanpm28
-- LinkedIn: YOUR_LINK
+- LinkedIn: https://www.linkedin.com/in/aryanpatil2006
   
