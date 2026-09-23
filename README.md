@@ -2,7 +2,7 @@
 
 ## 🚀 About Me
 
-I'm a **B.Sc. Information Technology** student and a **Full Stack Java Developer**. I enjoy building modern, responsive, and secure web applications using Java, Spring Boot, React, Node.js, and MySQL.
+I'm a **B.Sc. Information Technology** student and a **full-stack developer** working across two stacks — **Java/Spring Boot** and the **MERN stack**. I enjoy building secure, production-style applications: real authentication, proper error handling, and integrations with real third-party and AI services, not just CRUD demos.
 
 ---
 
@@ -23,6 +23,7 @@ I'm a **B.Sc. Information Technology** student and a **Full Stack Java Developer
 
 ### Database
 - MySQL
+- MongoDB
 
 ### Tools
 - Git & GitHub
@@ -32,46 +33,30 @@ I'm a **B.Sc. Information Technology** student and a **Full Stack Java Developer
 - Spring Security
 - JWT Authentication
 - Hibernate / JPA
-- Socket.IO
 
 ---
 
 ## 📂 Projects
 
-### 🏨 StayEase – Hotel Booking System
-Full-stack hotel booking application with authentication, room booking, admin dashboard, and real-time notifications.
+### 🔒 [SecureStorage](https://github.com/aryanpm28/secure-storage)
+Full-stack private cloud storage app. Upload images, videos, and documents under one account, all behind a custom Spring Security filter — JWT validation, IP/user access blocking, and full access-attempt logging. Includes per-user storage quotas and expiring, token-based share links for controlled public access.
 
-**Tech:** Spring Boot, React, Node.js, MySQL, JWT
+**Tech:** Spring Boot 3, Spring Security, MySQL, React
 
-### 🎬 CINEVERSE
-Netflix-inspired streaming platform with movie browsing, search, watchlist, and responsive UI.
+### 📩 [ClickNotify](https://github.com/aryanpm28/clicknotify)
+Notification service that sends Email and Telegram alerts independently, so a failure in one channel never blocks the other. Telegram is connected through a one-tap deep-link flow — no manually typed chat ID — and the API is protected with a pre-shared key and per-IP rate limiting.
 
-**Tech:** React, React Router, Tailwind CSS
+**Tech:** Spring Boot, Spring Mail, Telegram Bot API, React
 
-### 🛒 GOODHAUL
-Frontend e-commerce store with product search, filters, wishlist, cart, and checkout.
+### 🔍 [AI Search Assistant](https://github.com/aryanpm28/ai-search-assistant)
+Full-stack MERN chatbot with JWT authentication and MongoDB-backed, per-user data isolation. Uses a retrieval-augmented generation pipeline — live Wikipedia search combined with an LLM — to produce cited, source-backed answers instead of unverified responses.
 
-**Tech:** React, Tailwind CSS
+**Tech:** React, Node.js, Express, MongoDB
 
-### 🛡️ CyberShield SOC
-Security Operations Center dashboard for monitoring threats, analytics, and server status.
+### 🕵️ [AI Detector](https://github.com/aryanpm28/ai-detector)
+Document AI-detection tool that blends an LLM-based judgment with a stylometric heuristic signal for more stable, explainable results, with graceful fallback to heuristic-only scoring if the AI provider is unavailable. Parses PDF/DOCX entirely client-side, so raw files never reach the server.
 
-**Tech:** React, Tailwind CSS, Recharts
-
-### 👨‍🎓 Student Management System
-Full-stack CRUD application for managing student records.
-
-**Tech:** Spring Boot, React, MySQL
-
-### 📈 Habit Tracker
-Full-stack application for tracking daily habits.
-
-**Tech:** Spring Boot, React, MySQL
-
-### 💰 Smart Expense Tracker
-Full-stack expense management application.
-
-**Tech:** Spring Boot, React, MySQL
+**Tech:** React, Node.js, Express, MongoDB
 
 ---
 
